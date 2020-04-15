@@ -1,6 +1,6 @@
 const inicioDebug= require('debug')('app:inicio');
 const express = require('express');
-const Joi = require('Joi');
+const Joi = require('joi');
 const morgan = require('morgan');
 const config = require('config');
 const app = express();
