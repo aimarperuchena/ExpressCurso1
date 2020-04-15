@@ -1,5 +1,5 @@
 const express = require('express');
-const Joi = require('@hapi/joi');
+const Joi = require('joi-browser');
 const ruta = express.Router();
 
 const usuarios = [
